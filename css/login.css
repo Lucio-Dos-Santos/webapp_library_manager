@@ -1,0 +1,22 @@
+body {
+	background-image: url("../assets/img/biblio.jpg");
+}
+
+.main-login {
+	background-color: rgb(44, 44, 44);
+	height: 300px;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 200px;
+	font-family: helvetica;
+}
+
+.main-login h1 {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.info-login {
+	background-color: green;
+	padding-left: 25%;
+}
