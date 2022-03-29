@@ -1,5 +1,44 @@
 body {
 	background-color: gray;
 	color: white;
+	font-family: helvetica;
 }
+
+.main-login {
+	background-color: rgb(44, 44, 44);
+	height: 400px;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 200px;
+}
+
+.main-login h1 {
+	margin-top: 10px;
+	text-align: center;
+	
+}
+
+.info-login {
+	margin-left: 33%;
+	width: 33%;
+}
+
+.btn1 {
+	margin-left: 15%;
+}
+
+.square-login img {
+	width: 96px;
+	height: 96px;
+	object-fit: cover;	
+	margin-left: 43%;
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
 

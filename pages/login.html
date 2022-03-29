@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Library Manager - Login</title>
+		<title>Library Manager - Connexion</title>
 		<link rel="stylesheet" href="../css/main.css">
 		<link rel="stylesheet" href="../css/login.css">
+		<link rel="icon" href="../assets/img/logo.png">
 	</head>
 	<body>
 		<div class="main-login">
 				<div class="square-login">
-					<h1>Login</h1>
+					<img src="../assets/img/logo.png" alt="Logo">
+					<h1>Connexion</h1>
 					<div class="info-login">
 						<ul>
-							<input type="text">
+							<input type="email" placeholder="Identifiant" required>
 						</ul>
 						<ul>
-							<input type="text">
+							<input type="password" placeholder="Mot de passe" required>
 						</ul>
-						<input type="submit" value="Login">
-						<input type="submit" value="Register">
+						<input type="submit" value="Se connecter" class="btn1">
+						<button type="button" onclick="location.href='register.html'">S'inscrire</button>
 					</div>
 				</div>
 		</div>
