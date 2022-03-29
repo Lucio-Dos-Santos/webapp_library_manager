@@ -6,7 +6,7 @@ body {
 
 .main-login {
 	background-color: rgb(44, 44, 44);
-	height: 400px;
+	height: 500px;
 	width: 50%;
 	margin-left: 25%;
 	margin-top: 200px;
@@ -19,13 +19,56 @@ body {
 }
 
 .info-login {
-	margin-left: 33%;
-	width: 33%;
+	margin-left: 25%;
+	width: 40%;
+}
+
+.input-login {
+	border-radius:10px;
+  	border: 1px solid #eee;
+  	transition: .3s border-color;
+	display:block;
+	width:100%;
+	margin:10px 0;
+	padding:10px;
 }
 
 .btn1 {
-	margin-left: 15%;
+	margin-left: 33%;
+	
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	border-radius: 8px;
+	padding: 14px 24px;
+	border: none;
+	transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+	background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+	color: #fff;
+
 }
+
+.btn2 {
+	margin-top: 15px;
+	margin-left: 35%;
+
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	border-radius: 8px;
+	padding: 14px 24px;
+	border: none;
+	transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+	background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+	color: #fff;
+}
+
 
 .square-login img {
 	width: 96px;
@@ -34,11 +77,3 @@ body {
 	margin-left: 43%;
 	padding-top: 25px;
 }
-
-
-
-
-
-
-
-
