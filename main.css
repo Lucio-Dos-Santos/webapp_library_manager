@@ -1,0 +1,41 @@
+body {
+	background-color: gray;
+	color: white;
+	background-image: url(../assets/img/testbg.jpg);
+	
+}
+div
+{
+	border: solid;
+	height: 500px;
+  width: 500px;
+  margin-left: 25%;
+  margin-top: 2%;
+  background-color: rgb(7, 7, 7);
+  font-style: oblique;
+  border-radius: 30px;
+
+} 
+
+table{
+  border-collapse: collapse;
+  background-image: url(https://localhost/exemples_cours/img/mon_joli_oiseau.jpg);
+  background-position: center;
+  color: white;
+  opacity: 0.8;
+}
+caption{
+  border: 2px solid dodgerblue;
+  border-bottom: initial;
+  background-image: linear-gradient(90deg, orange, grey);
+}
+td, th{
+  border: 1px dashed blue;
+  border-top: initial;
+}
+td[data-titre_colonne="Prix"] {
+  text-align: center;
+}
+tr:last-child{
+  border: 2px solid dodgerblue;}
+
